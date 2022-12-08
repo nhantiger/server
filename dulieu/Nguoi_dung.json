@@ -1,0 +1,54 @@
+[
+    {
+        "_id": {
+            "$oid": "5aec17a03f45afa668523043"
+        },
+        "Ten": "Trần Anh",
+        "Ma_so": "NV_3",
+        "Ten_Dang_nhap": "NV_3",
+        "Mat_khau": "NV_3",
+        "Nhom_Nguoi_dung": {
+            "Ten": "Nhân viên Bán hàng",
+            "Ma_so": "BAN_HANG"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5aec17a03f45afa668523041"
+        },
+        "Ten": "Trần Tiến Quang",
+        "Ma_so": "NV_2",
+        "Ten_Dang_nhap": "NV_2",
+        "Mat_khau": "NV_2",
+        "Nhom_Nguoi_dung": {
+            "Ten": "Nhân viên Nhập hàng",
+            "Ma_so": "NHAP_HANG"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5aec17a03f45afa66852303f"
+        },
+        "Ten": "Trần Anh",
+        "Ma_so": "NV_1",
+        "Ten_Dang_nhap": "NV_1",
+        "Mat_khau": "NV_1",
+        "Nhom_Nguoi_dung": {
+            "Ten": "Nhân viên Giao hàng",
+            "Ma_so": "GIAO_HANG"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5aec17a03f45afa66852303d"
+        },
+        "Ten": "PET",
+        "Ma_so": "QL_1",
+        "Ten_Dang_nhap": "QL_1",
+        "Mat_khau": "QL_1",
+        "Nhom_Nguoi_dung": {
+            "Ten": "Quản lý",
+            "Ma_so": "QUAN_LY"
+        }
+    }
+]
