@@ -3,6 +3,8 @@ const MongoClient = mong_db.MongoClient;
 const uri = "mongodb+srv://ngothanhnhan:nhan12345@atlascluster.qodiztp.mongodb.net/test";
 const dbName = "restaurentpee";
 
+
+
 class mongoDB {
     getAll(collection_name, filter = {}) {
         return MongoClient.connect(uri).then(client => {

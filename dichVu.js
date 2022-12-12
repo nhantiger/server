@@ -39,7 +39,8 @@ const dich_vu = http.createServer((req, res) => {
             }).catch(err => {
                 res.end(JSON.stringify(err));
             })
-        } else if (url == "/dsFood") {
+        }
+         else if (url == "/dsFood") {
             db.getAll("food").then(result => {
                 let kq = JSON.stringify(result);
                 res.writeHead(200, { "Content-Type": "text/json;charset=utf-8" });
@@ -47,8 +48,14 @@ const dich_vu = http.createServer((req, res) => {
             }).catch(err => {
                 res.end(JSON.stringify(err));
             })
-        } 
-        else if (url == "/dsNguoidung") {
+        } else if (url == "/dsDatBan") {
+            db.getAll("danhsach_ban").then(result => {
+                let kq = JSON.stringify(result);
+                res.writeHead(200, { "Content-Type": "text/json;charset=utf-8" });
+                res.end(kq);
+            }).catch(err => {
+                res.end(JSON.stringify(err));
+        })}else if (url == "/dsNguoidung") {
             db.getAll("user").then(result => {
                 let kq = JSON.stringify(result);
                 res.writeHead(200, { "Content-Type": "text/json;charset=utf-8" });
